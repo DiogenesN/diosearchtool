@@ -33,11 +33,11 @@ It was tested on Debian 12.
 
 # Screenshots
  
-![Alt text](https://github.com/DiogenesN/diosearchtool/blob/main/diosearchtool.png)
+![Alt text](https://raw.githubusercontent.com/DiogenesN/diosearchtool/main/dioserchtool.png)
  
-![Alt text](https://github.com/DiogenesN/diosearchtool/blob/main/diosearchtool2.png)
+![Alt text](https://raw.githubusercontent.com/DiogenesN/diosearchtool/main/dioserchtool2.png)
 
-![Alt text](https://github.com/DiogenesN/diosearchtool/blob/main/diosearchtool3.png)
+![Alt text](https://raw.githubusercontent.com/DiogenesN/diosearchtool/main/dioserchtool3.png)
 
 That's it!
 
