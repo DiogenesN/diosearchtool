@@ -492,7 +492,9 @@ static void bind_listitem(GtkListItemFactory *factory, GtkListItem *list_item) {
 	// gets the strings
 	guint listitemPos = gtk_list_item_get_position(list_item);
 	const gchar *s_icons = gtk_string_list_get_string(iconsList, listitemPos);
-	const gchar *s_names = gtk_string_list_get_string(namesList, listitemPos);
+	//const gchar *s_names = gtk_string_list_get_string(namesList, listitemPos);
+	// g_markup_escape_text is extremely important to escape ampersand or it breaks search results
+	const gchar *s_names = g_markup_escape_text(gtk_string_list_get_string(namesList, listitemPos), -1);
 
 	// check if strings aren't NULL otherwise it will crash
 	if (s_icons != NULL && s_names != NULL) {
