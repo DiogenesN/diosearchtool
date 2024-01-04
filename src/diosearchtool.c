@@ -508,8 +508,6 @@ static void bind_listitem(GtkListItemFactory *factory, GtkListItem *list_item) {
 		gtk_image_set_from_icon_name(GTK_IMAGE(icon), s_icons);
 		gtk_label_set_markup(GTK_LABEL(labelName), resultName);
 		g_free((void *)resultName);
-		g_free((void *)s_icons);
-		g_free((void *)s_names);
 	}
 	else {
 		// NULL string reached
